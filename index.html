@@ -4,10 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <script src="script.js"></script>
+		<script src="https://use.fontawesome.com/28848c95ae.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <header class="header">
+			<h1 class="title">ROCK  PAPER  SCISSORS</h1>
+			<h5>First to score five points, wins the game.</h5>
+    </header>
+    <main class="main">
+			<div class="playAgain">
+				<button class="playAgainBtn" id="playAgainBtn">Play again!</button>
+			</div>
+			<div class="score-display">
+				<h2 class="score-message" id="score-message">Choose one option from bellow</h2>
+			</div>
+			<div class="winner-display">
+				<h2 class="winner-message" id="winner-message"></h2>
+			</div>
+					<div class="buttons">
+					<button class="btn btn-square" id="btn-Rock">Rock</button>
+					<button class="btn btn-square" id="btn-Paper">Paper</button>
+					<button class="btn btn-square" id="btn-Scissors">Scissors</button>
+			</div>
+			
+			<div class="scores-container">
+          <div class="score-box">
+            <div class="selection" id="playerSelection">Player choice?</div>
+            <p class="score" id="playerScore">Player score: 0</p>
+          </div>
+          <div class="score-box">
+            <div class="selection" id="computerSelection">PC choice?</div>
+            <p class="score" id="computerScore">PC score: 0</p>
+          </div>
+        </div>
+			</div>			
+    </main>
+    <footer class="footer">
+			<p>
+				Copyright ©
+        <script>
+          document.write(new Date().getFullYear())
+        </script>
+        ierdna89
+      </p>
+      <a href="https://github.com/ierdna89" target="_blank">
+      <i class="fab fa-github"></i>
+			</a>
+    </footer>
 </body>
 </html>
