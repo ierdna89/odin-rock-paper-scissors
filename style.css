@@ -97,6 +97,20 @@ body {
 .footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 40px 0px;
   background-color: var(--header);
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+}
+
+.fa-github {
+  color: var(--primary-light);
+  font-size: 25px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.fa-github:hover {
+  transform: rotate(360deg) scale(1.3);
 }

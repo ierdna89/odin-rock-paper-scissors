@@ -138,13 +138,11 @@ buttonReset.addEventListener('click', () => {
     window.location.href = window.location.href;
 });
 
-
-
 function disableButtons() {
     const buttons = document.querySelectorAll('.btn-square');
 
     for (const button of buttons) {
-        // Set the disabled attribute
-        button.setAttribute('disabled', '');
+        button.disabled = true;
+        button.style.opacity = "0.5";
     }
 }
