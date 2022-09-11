@@ -98,10 +98,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 0px;
+  padding: 40px;
   background-color: var(--header);
   gap: 10px;
-  width: 100%;
+  width: auto;
   padding: 10px;
 }
 
