@@ -54,9 +54,9 @@ buttonRock.addEventListener("click", () => {
     keepingScore();
     hidingScoreText();
     winnerDeclaration.textContent = declaringWinner();
-    playerScoreUi.textContent = `Player score: ${playerScore}`;
+    playerScoreUi.textContent = `Your score: ${playerScore}`;
     computerScoreUi.textContent = `PC score: ${computerScore}`;
-    playerSelectionUi.textContent = `Player chose: ${playerSelection}`;
+    playerSelectionUi.textContent = `You chose: ${playerSelection}`;
     computerSelectionUi.textContent = `PC chose: ${computerSelection}`;
 });
 
@@ -68,9 +68,9 @@ buttonPaper.addEventListener("click", () => {
     keepingScore();
     hidingScoreText();
     winnerDeclaration.textContent = declaringWinner();
-    playerScoreUi.textContent = `Player score: ${playerScore}`;
+    playerScoreUi.textContent = `Your score: ${playerScore}`;
     computerScoreUi.textContent = `PC score: ${computerScore}`;
-    playerSelectionUi.textContent = `Player chose: ${playerSelection}`;
+    playerSelectionUi.textContent = `You chose: ${playerSelection}`;
     computerSelectionUi.textContent = `PC chose: ${computerSelection}`;
 });
 
@@ -82,15 +82,15 @@ buttonScissors.addEventListener("click", () => {
     keepingScore();
     hidingScoreText();
     winnerDeclaration.textContent = declaringWinner();
-    playerScoreUi.textContent = `Player score: ${playerScore}`;
+    playerScoreUi.textContent = `Your score: ${playerScore}`;
     computerScoreUi.textContent = `PCscore: ${computerScore}`;
-    playerSelectionUi.textContent = `Player chose: ${playerSelection}`;
+    playerSelectionUi.textContent = `You chose: ${playerSelection}`;
     computerSelectionUi.textContent = `PC chose: ${computerSelection}`;
 });
 
 
 let tie = "Its a tie.";
-let playerWinsRound = "Player wins round!";
+let playerWinsRound = "You won this round!";
 let computerWinsRound = "Computer wins round!";
 
 const playerScoreUi = document.getElementById("playerScore");
